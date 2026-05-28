@@ -1,0 +1,70 @@
+---------------------------------------
+Begin Slurm Prolog: May-28-2026 10:39:56
+Job ID:    9247501
+User ID:   rthomas376
+Account:   gts-lspeare3
+Job name:  PRJNA610838_dada2
+Partition: cpu-small
+QOS:       inferno
+---------------------------------------
+[1] "Starting DADA2 pipeline..."
+[1] "Learning error rates..."
+73957680 total bases in 308157 reads from 10 samples will be used for learning the error rates.
+55468260 total bases in 308157 reads from 10 samples will be used for learning the error rates.
+[1] "Error rates learned"
+null device 
+          1 
+null device 
+          1 
+[1] "Running DADA algorithm..."
+Sample 1 - 27226 reads in 10443 unique sequences.
+Sample 2 - 30675 reads in 11029 unique sequences.
+Sample 3 - 31844 reads in 12739 unique sequences.
+Sample 4 - 24054 reads in 11015 unique sequences.
+Sample 5 - 27579 reads in 13517 unique sequences.
+Sample 6 - 32903 reads in 12216 unique sequences.
+Sample 7 - 32672 reads in 13261 unique sequences.
+Sample 8 - 30222 reads in 12675 unique sequences.
+Sample 9 - 36448 reads in 21177 unique sequences.
+Sample 10 - 34534 reads in 12238 unique sequences.
+Sample 1 - 27226 reads in 12262 unique sequences.
+Sample 2 - 30675 reads in 11083 unique sequences.
+Sample 3 - 31844 reads in 11507 unique sequences.
+Sample 4 - 24054 reads in 9384 unique sequences.
+Sample 5 - 27579 reads in 12258 unique sequences.
+Sample 6 - 32903 reads in 11418 unique sequences.
+Sample 7 - 32672 reads in 11187 unique sequences.
+Sample 8 - 30222 reads in 11583 unique sequences.
+Sample 9 - 36448 reads in 17612 unique sequences.
+Sample 10 - 34534 reads in 9797 unique sequences.
+[1] "Denoising complete"
+[1] "Merging paired reads..."
+[1] "Paired reads merged"
+[1] "Creating sequence table..."
+[1] "Sequence table dimensions: 10 samples, 35 ASVs"
+[1] "Removing chimeras..."
+[1] "Chimera removal: kept 96.15 % of sequences"
+[1] "Tracking table:"
+            input filtered denoised merged non-chim
+SRR11255972 31755    27226    26913     87       87
+SRR11255973 35500    30675    30044     51       51
+SRR11255974 39122    31844    31434     79       78
+SRR11255975 28890    24054    23456    340      309
+SRR11255976 31906    27579    26338      0        0
+SRR11255977 39116    32903    32675     46       46
+[1] "Sequence table saved!"
+[1] "Full workspace saved!"
+[1] "Markdown report updated!"
+[1] "DADA2 pipeline complete!"
+---------------------------------------
+Begin Slurm Epilog: May-28-2026 10:53:55
+Job ID:        9247501
+User ID:       rthomas376
+Account:       gts-lspeare3
+Job name:      PRJNA610838_dada2
+Resources:     cpu=4,mem=16G,node=1
+Rsrc Used:     cput=00:55:56,vmem=0,walltime=00:13:59,mem=2228480K,energy_used=0
+Partition:     cpu-small
+QOS:           inferno
+Nodes:         atl1-1-02-003-16-1
+---------------------------------------
